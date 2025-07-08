@@ -285,12 +285,13 @@ section {
     flex-direction: column;
 }
 
+
 .about-containers, .about-details-container {
     display: flex;
 }
 
 .about-pic {
-    width: 550px; /* adjust size as needed */
+    width: 500px; /* adjust size as needed */
     height: auto;
     border-radius: 3px; /* slight rounding */
     border: 7px solid #ffffff; /* light border */
@@ -321,13 +322,18 @@ section {
 }
 
 .section-container {
+    display: flex;
+    flex-direction: row;
     gap: 4rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     height: 80%;
 }
 
 .section__pic-container {
-    height: 400px;
-    width: 400px;
+    align-self: flex-start;
+    max-width: 400px;
     margin: auto 0;
 }
 
