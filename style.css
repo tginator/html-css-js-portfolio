@@ -176,10 +176,14 @@ section {
 }
 
 .section__pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+   width: 400px;     
+  height: 400px;
+  object-fit: cover;   
+  border-radius: 50%;  
+  display: flex;
+  margin: auto 0;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2); /* soft drop shadow */
+
 }
 
 .section__text {
@@ -286,7 +290,18 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem;
+    width: 550px; /* adjust size as needed */
+    height: auto;
+    border-radius: 3px; /* slight rounding */
+    border: 7px solid #ffffff; /* light border */
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2); /* soft drop shadow */
+    transform: rotate(-3deg); /* slight tilt */
+    transition: transform 0.3s ease;
+}
+
+.about-pic:hover {
+  transform: rotate(0deg) scale(1.02);
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.25);
 }
 
 .arrow {
