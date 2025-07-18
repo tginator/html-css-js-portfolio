@@ -43,53 +43,109 @@
 }
 
 @media screen and (max-width: 600px) {
-    #contact,
-    footer {
-        height: 40vh;
+    html, body {
+        width: 100vw;
+        overflow-x: hidden;
     }
-    #profile {
-        height: 83vh;
-        margin-bottom: 0;
+    section {
+        margin: 0 0;
+        padding: 2vw 4vw;
+        min-width: 0;
     }
-    article {
-        font-size: 1rem; 
+    #profile, .section-container, .about-containers, .experience-details-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
-    footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
+    .section__pic-container, .about-pic {
+        width: 80vw !important;
+        max-width: 300px;
+        height: auto !important;
+        margin: 0 auto 1rem auto;
+        display: block;
     }
-    .about-containers, .contact-info-upper-container, .btn-container{
-        flex-wrap: wrap;
+    .about-details-container, .details-container, .article-container {
+        width: 100%;
+        box-sizing: border-box;
     }
-    .contact-info-container {
-        margin: 0;
+    .btn-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+        align-items: center;
     }
-    .contact-info-container p, .nav-links li a {
+    .btn {
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.75rem;
+    }
+    .icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .section__text__p2 {
         font-size: 1rem;
     }
     .experience-sub-title {
-        font-size: 1.25rem;
-    }
-    .logo {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+        font-size: 1rem;
     }
-    .section__pic-container {
-        width: auto;
-        height: 46vw;
-        justify-content: center;;
+    #hamburger-nav .menu-links {
+        width: 100vw;
+        left: 0;
+        right: 0;
+        font-size: 1.2rem;
     }
-    .section__text__p2 {
-        font-size: 1.25rem;
+    .terminal-bg {
+        width: 100vw !important;
+        min-width: 0;
+        left: 0;
     }
-    .title {
-        font-size: 2rem;
+    .terminal-line {
+        font-size: 0.85rem;
+        max-width: 95vw;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    #contact, footer {
+        height: auto;
+        min-height: 20vh;
+        padding-bottom: 2rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+    .contact-info-upper-container, .about-containers {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .contact-info-container {
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
     }
     .text-container {
-        text-align: justify;
+        text-align: left;
+        font-size: 0.95rem;
     }
 }
