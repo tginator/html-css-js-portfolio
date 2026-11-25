@@ -31,7 +31,7 @@ function runCommand(raw: string): string[] | "CLEAR" {
     case "ls":
       return ["wa-energy-dashboard/", "air-traffic-control/", "focuspal/"];
     case "skills":
-      return ["Languages: Java, Python, JavaScript, SQL, Kotlin, HTML, CSS", 'Run "skills --full" is not implemented. See the Inventory section.'];
+      return ["Languages: Java, Python, JavaScript, TypeScript, SQL, Kotlin, HTML, CSS", 'Run "skills --full" is not implemented. See the Inventory section.'];
     case "education":
       return [`${siteConfig.university}`, "Bachelor of Computing, Software Engineering", "Completed: December 2026"];
     case "contact":
