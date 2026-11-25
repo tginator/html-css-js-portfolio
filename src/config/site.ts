@@ -8,14 +8,16 @@ export const siteConfig = {
   title: "Tyler.dev | Tyler's Dev Quest",
   role: "Software Engineering Graduate",
   university: "Curtin University",
-  domain: "https://tyler-gordon.com",
+  domain: "https://tginator.github.io/html-css-js-portfolio",
 
   email: "gordontyler11@outlook.com",
 
   links: {
     github: "https://github.com/tginator",
     linkedin: "https://linkedin.com/in/tylergabrielgordon",
-    resume: "/resume/Tyler-Gordon-Resume.pdf",
+    // BASE_URL keeps this correct whether the site is served from a domain
+    // root or from a GitHub Pages project subpath.
+    resume: import.meta.env.BASE_URL + "resume/Tyler-Gordon-Resume.pdf",
   },
 
   // Per-project links. Fill in `demo` when a live deployment exists;
