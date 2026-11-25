@@ -17,7 +17,7 @@ export function AcademySection() {
           eyebrow="THE ACADEMY"
           gameLabel="Completed Modules"
           plainLabel="Education"
-          description="Real university results — not in-game achievements."
+          description="Real university results, not in-game achievements."
         />
 
         <PixelPanel glow="cyan" className="mt-10 flex flex-col gap-4 p-6 sm:flex-row sm:items-center sm:justify-between">
@@ -27,10 +27,10 @@ export function AcademySection() {
             </span>
             <div>
               <p className="font-pixel text-pixel-sm text-slate-100">{siteConfig.university}</p>
-              <p className="mt-1 font-mono text-sm text-cyan">Bachelor of Computing — Software Engineering</p>
+              <p className="mt-1 font-mono text-sm text-cyan">Bachelor of Computing, Software Engineering</p>
             </div>
           </div>
-          <Badge tone="amber">Expected Completion: December 2026</Badge>
+          <Badge tone="leaf">Completed: December 2026</Badge>
         </PixelPanel>
 
         <div className="mt-8 grid grid-cols-1 gap-6 lg:grid-cols-2">

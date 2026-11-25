@@ -11,12 +11,12 @@ export interface Project {
   questNumber: number;
   title: string;
   tagline: string;
-  category: "Data / Machine Learning" | "Software Architecture / Concurrency" | "Product / Frontend";
-  icon: "energy" | "radar" | "focus";
+  category: "Data / Machine Learning" | "Software Architecture / Concurrency" | "Product / Frontend" | "Full-Stack / Web App";
+  icon: "energy" | "radar" | "focus" | "layers";
   description: string;
   features: string[];
   tech: string[];
-  githubUrl: string;
+  githubUrl: string | null;
   demoUrl: string | null;
   caseStudy: QuestCaseStudy;
 }

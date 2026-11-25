@@ -20,7 +20,7 @@ export function SkillsSection() {
           eyebrow="THE SKILL FORGE"
           gameLabel="Inventory"
           plainLabel="Technical Skills"
-          description="Grouped by kind, not ranked by score — every item here is something I've actually used, not a self-graded bar chart."
+          description="Grouped by kind, not ranked by score. Every item here is something I've actually used, not a self-graded bar chart."
         />
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">

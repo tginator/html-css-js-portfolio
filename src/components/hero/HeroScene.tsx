@@ -3,7 +3,7 @@ import { Character } from "./Character";
 import { PixelIcon } from "@/components/icons/PixelIcon";
 import { laptopGlyph } from "@/components/icons/glyphs";
 
-const SPEECH_LINES = ["Hey — welcome in.", "Let's build something.", "Currently debugging life."];
+const SPEECH_LINES = ["Hey, welcome in.", "Let's build something.", "Currently debugging life."];
 
 /** Character + workstation illustration with a small hover speech bubble easter egg. */
 export function HeroScene() {

@@ -69,9 +69,11 @@ export function QuestModal({ project, onClose }: QuestModalProps) {
       </div>
 
       <div className="mt-8 flex flex-wrap gap-3 border-t-2 border-void-700 pt-6">
-        <PixelButton variant="primary" href={project.githubUrl} icon={<Github size={14} />}>
-          GitHub
-        </PixelButton>
+        {project.githubUrl && (
+          <PixelButton variant="primary" href={project.githubUrl} icon={<Github size={14} />}>
+            GitHub
+          </PixelButton>
+        )}
         {project.demoUrl && (
           <PixelButton variant="secondary" href={project.demoUrl} icon={<ExternalLink size={14} />}>
             Live Demo

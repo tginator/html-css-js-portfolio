@@ -39,6 +39,17 @@ export const focusGlyph: PixelRect[] = [
   { x: 0, y: 7, w: 8, h: 1 },
 ];
 
+export const layersGlyph: PixelRect[] = [
+  { x: 1, y: 0, w: 6, h: 1 },
+  { x: 0, y: 1, w: 8, h: 1 },
+  { x: 1, y: 2, w: 6, h: 1 },
+  { x: 1, y: 3, w: 6, h: 1 },
+  { x: 0, y: 4, w: 8, h: 1 },
+  { x: 1, y: 5, w: 6, h: 1 },
+  { x: 1, y: 6, w: 6, h: 1 },
+  { x: 0, y: 7, w: 8, h: 1 },
+];
+
 export const scrollGlyph: PixelRect[] = [
   { x: 1, y: 0, w: 6, h: 1 },
   { x: 0, y: 1, w: 2, h: 1 },

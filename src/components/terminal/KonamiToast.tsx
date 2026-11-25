@@ -20,7 +20,7 @@ export function KonamiToast({ visible }: KonamiToastProps) {
           exit={{ opacity: 0, y: reducedMotion ? 0 : 20 }}
           transition={{ duration: reducedMotion ? 0 : 0.25 }}
         >
-          ★ CHEAT CODE ACCEPTED — +30 LIVES ★
+          ★ CHEAT CODE ACCEPTED: +30 LIVES ★
         </motion.div>
       )}
     </AnimatePresence>

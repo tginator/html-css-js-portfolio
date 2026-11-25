@@ -25,7 +25,7 @@ interface StarFieldProps {
   className?: string;
 }
 
-/** A sparse field of tiny pixel stars. Purely decorative — aria-hidden. */
+/** A sparse field of tiny pixel stars. Purely decorative, aria-hidden. */
 export function StarField({ count = 40, className = "" }: StarFieldProps) {
   const stars = useMemo(() => generateStars(count), [count]);
 

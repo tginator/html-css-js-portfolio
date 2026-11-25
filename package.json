@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Tyler Gordon's portfolio — an 8-bit software engineering adventure.",
+  "description": "Tyler Gordon's portfolio: an 8-bit software engineering adventure.",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

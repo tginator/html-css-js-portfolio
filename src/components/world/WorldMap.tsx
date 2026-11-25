@@ -39,7 +39,7 @@ function scrollToId(id: string) {
 }
 
 /**
- * The "world hub" — a clickable map of every portfolio section. Purely a
+ * The "world hub": a clickable map of every portfolio section. Purely a
  * navigation surface: no character movement required, direct clicks only.
  */
 export function WorldMap() {
@@ -51,7 +51,7 @@ export function WorldMap() {
           eyebrow="THE WORLD MAP"
           gameLabel="Choose Your Destination"
           plainLabel="Jump to any section of the portfolio"
-          description="Every location below links straight to a section — click through, or use the nav bar at the top."
+          description="Every location below links straight to a section. Click through, or use the nav bar at the top."
         />
 
         <ul className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">

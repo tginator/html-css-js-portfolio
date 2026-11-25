@@ -13,7 +13,7 @@ export const experience: ExperienceEntry[] = [
       "Managed time across multiple concurrent service tasks to consistent deadlines",
     ],
     transferableValue:
-      "Not a software role, but it built the communication, adaptability and stakeholder-facing habits that carry directly into collaborative engineering work — staying composed under pressure, coordinating with a team, and keeping people satisfied with the outcome.",
+      "Not a software role, but it built the communication, adaptability and stakeholder-facing habits that carry directly into collaborative engineering work: staying composed under pressure, coordinating with a team, and keeping people satisfied with the outcome.",
   },
   {
     id: "costa-logistics",
@@ -27,7 +27,7 @@ export const experience: ExperienceEntry[] = [
       "Gained exposure to basic warehouse automation technology",
     ],
     transferableValue:
-      "Also not an engineering role, but it demonstrates reliability, process awareness and the ability to work effectively within existing operational systems — habits that matter just as much inside a codebase as they do on a warehouse floor.",
+      "Also not an engineering role, but it demonstrates reliability, process awareness and the ability to work effectively within existing operational systems, habits that matter just as much inside a codebase as they do on a warehouse floor.",
   },
 ];
 

@@ -15,7 +15,7 @@ export function ProjectsSection() {
           eyebrow="THE PROJECT LAB"
           gameLabel="Quests"
           plainLabel="Selected Projects"
-          description="Three engineering quests spanning data & ML, concurrent systems architecture, and product-focused frontend work."
+          description="Four engineering quests spanning data & ML, concurrent systems architecture, product-focused frontend work, and a full-stack team capstone."
         />
 
         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-3">

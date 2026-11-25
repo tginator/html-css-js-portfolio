@@ -14,21 +14,21 @@ export function ProfileSection() {
             <div className="text-center">
               <p className="font-pixel text-pixel-xs text-slate-100">TYLER GORDON</p>
               <p className="mt-1 font-mono text-xs text-cyan">CLASS: Software Engineer</p>
-              <p className="font-mono text-xs text-slate-500">LVL: Final-Year Student</p>
+              <p className="font-mono text-xs text-slate-500">LVL: Graduate</p>
             </div>
           </PixelPanel>
 
           <div className="flex flex-col gap-4 lg:col-span-2">
             <PixelPanel className="p-6">
               <p className="font-sans text-base leading-relaxed text-slate-300">
-                I'm a final-year software engineering student at Curtin University who likes figuring out how
+                I'm a software engineering graduate from Curtin University who likes figuring out how
                 systems work and then building my own. My interests span software development, machine
                 learning and cloud technologies, and I particularly enjoy projects where software interacts
-                with real-world data or complex systems — things like forecasting emissions from a decade of
+                with real-world data or complex systems, things like forecasting emissions from a decade of
                 energy data, or keeping a simulation thread-safe under real concurrent load.
               </p>
               <p className="mt-4 font-sans text-base leading-relaxed text-slate-300">
-                Outside of coursework, I edit video freelance and play soccer — different kinds of problem
+                Outside of study, I edit video freelance and play soccer. Different kinds of problem
                 solving, but the same instinct for iterating until something actually works.
               </p>
             </PixelPanel>
@@ -46,7 +46,7 @@ export function ProfileSection() {
               </PixelPanel>
               <PixelPanel className="p-4">
                 <p className="font-pixel text-pixel-xs text-leaf">STATUS</p>
-                <p className="mt-2 font-mono text-xs text-slate-400">Graduating December 2026</p>
+                <p className="mt-2 font-mono text-xs text-slate-400">Graduated December 2026</p>
               </PixelPanel>
             </div>
           </div>

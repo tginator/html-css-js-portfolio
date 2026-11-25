@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-/** Fixed top progress bar styled as an XP meter. Reflects page scroll only — not a skill rating. */
+/** Fixed top progress bar styled as an XP meter. Reflects page scroll only, not a skill rating. */
 export function XPBar() {
   const [progress, setProgress] = useState(0);
 

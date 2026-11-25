@@ -13,7 +13,7 @@ export function SideQuestsSection() {
           eyebrow="OPTIONAL CONTENT"
           gameLabel="Side Quests"
           plainLabel="Interests"
-          description="Life outside the codebase — video editing and soccer."
+          description="Life outside the codebase: video editing and soccer."
         />
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">

@@ -19,7 +19,7 @@ export function ContactSection() {
         <h2 className="font-pixel text-pixel-lg text-slate-50 sm:text-pixel-xl">Ready For The Next Quest?</h2>
         <p className="font-mono text-sm text-amber">Contact</p>
         <p className="max-w-xl font-sans text-base text-slate-400">
-          I'm currently interested in software engineering and technology opportunities — reach out any time.
+          I'm currently interested in software engineering and technology opportunities. Reach out any time.
         </p>
 
         <div className="mt-2 flex flex-wrap items-center justify-center gap-3">

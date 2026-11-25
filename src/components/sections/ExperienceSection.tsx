@@ -10,7 +10,7 @@ export function ExperienceSection() {
           eyebrow="THE QUEST LOG"
           gameLabel="Quest Log"
           plainLabel="Experience"
-          description="My work history, and what it's actually taught me — none of it is a software engineering role, and I'm not pretending otherwise."
+          description="My work history, and what it's actually taught me. None of it is a software engineering role, and I'm not pretending otherwise."
         />
 
         <ol className="relative mt-10 flex flex-col gap-8 border-l-2 border-void-600 pl-6 sm:pl-10">

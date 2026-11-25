@@ -3,11 +3,11 @@ import { PixelPanel } from "@/components/ui/PixelPanel";
 import { PixelButton } from "@/components/ui/PixelButton";
 import { Badge } from "@/components/ui/Badge";
 import { PixelIcon } from "@/components/icons/PixelIcon";
-import { energyGlyph, radarGlyph, focusGlyph } from "@/components/icons/glyphs";
+import { energyGlyph, radarGlyph, focusGlyph, layersGlyph } from "@/components/icons/glyphs";
 import type { Project } from "@/data/types";
 
-const iconMap = { energy: energyGlyph, radar: radarGlyph, focus: focusGlyph };
-const iconColorMap = { energy: "#ffc857", radar: "#4deaff", focus: "#a78bfa" };
+const iconMap = { energy: energyGlyph, radar: radarGlyph, focus: focusGlyph, layers: layersGlyph };
+const iconColorMap = { energy: "#ffc857", radar: "#4deaff", focus: "#a78bfa", layers: "#5eead4" };
 
 interface QuestCardProps {
   project: Project;
@@ -54,9 +54,11 @@ export function QuestCard({ project, onOpenCaseStudy }: QuestCardProps) {
       </div>
 
       <div className="mt-2 flex flex-wrap gap-3 border-t-2 border-void-700 pt-4">
-        <PixelButton variant="primary" href={project.githubUrl} icon={<Github size={14} />}>
-          GitHub
-        </PixelButton>
+        {project.githubUrl && (
+          <PixelButton variant="primary" href={project.githubUrl} icon={<Github size={14} />}>
+            GitHub
+          </PixelButton>
+        )}
         {project.demoUrl && (
           <PixelButton variant="secondary" href={project.demoUrl} icon={<ExternalLink size={14} />}>
             Live Demo

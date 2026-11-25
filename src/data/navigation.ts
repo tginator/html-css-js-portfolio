@@ -8,7 +8,7 @@ export interface NavLocation {
 
 /**
  * Canonical list of portfolio sections. Used to drive the sticky nav,
- * the mobile menu, the world/hub map, and the terminal easter egg —
+ * the mobile menu, the world/hub map, and the terminal easter egg:
  * so every entry point into the site stays in sync.
  */
 export const navLocations: NavLocation[] = [
@@ -38,7 +38,7 @@ export const navLocations: NavLocation[] = [
     gameLabel: "The Academy",
     plainLabel: "Education",
     hudLabel: "ACADEMY",
-    description: "Curtin University — Bachelor of Computing, Software Engineering.",
+    description: "Curtin University: Bachelor of Computing, Software Engineering.",
   },
   {
     id: "achievements",
@@ -59,7 +59,7 @@ export const navLocations: NavLocation[] = [
     gameLabel: "Side Quests",
     plainLabel: "Interests",
     hudLabel: "SIDE QUESTS",
-    description: "Video editing and soccer — life outside the codebase.",
+    description: "Video editing and soccer: life outside the codebase.",
   },
   {
     id: "contact",

@@ -34,7 +34,7 @@ export function HeroSection() {
           </p>
 
           <p className="max-w-xl font-sans text-base text-slate-400">
-            I'm a final-year software engineering student who enjoys building software, data-driven
+            I'm a software engineering graduate who enjoys building software, data-driven
             applications and cloud-based systems that solve real problems. My interests span{" "}
             <span className="text-slate-200">software development</span>,{" "}
             <span className="text-slate-200">data science</span>,{" "}

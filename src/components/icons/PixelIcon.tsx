@@ -15,7 +15,7 @@ interface PixelIconProps {
 
 /**
  * Renders a small original pixel-art glyph from a list of grid-aligned
- * rectangles. Every icon in the site is built from this — no external
+ * rectangles. Every icon in the site is built from this. No external
  * icon packs, no bitmap images.
  */
 export function PixelIcon({ rects, gridSize = 8, color = "currentColor", className = "", title }: PixelIconProps) {

@@ -25,15 +25,15 @@ function runCommand(raw: string): string[] | "CLEAR" {
       return ["help, about, whoami, projects, skills, education, contact, status, clear"];
     case "about":
     case "whoami":
-      return ["Tyler Gordon", "Final-year Software Engineering student at Curtin University."];
+      return ["Tyler Gordon", "Software Engineering graduate from Curtin University."];
     case "projects":
     case "ls projects":
     case "ls":
       return ["wa-energy-dashboard/", "air-traffic-control/", "focuspal/"];
     case "skills":
-      return ["Languages: Java, Python, JavaScript, SQL, Kotlin, HTML, CSS", 'Run "skills --full" is not implemented — see the Inventory section.'];
+      return ["Languages: Java, Python, JavaScript, SQL, Kotlin, HTML, CSS", 'Run "skills --full" is not implemented. See the Inventory section.'];
     case "education":
-      return [`${siteConfig.university}`, "Bachelor of Computing — Software Engineering", "Expected completion: December 2026"];
+      return [`${siteConfig.university}`, "Bachelor of Computing, Software Engineering", "Completed: December 2026"];
     case "contact":
       return [siteConfig.email, siteConfig.links.linkedin];
     case "status":

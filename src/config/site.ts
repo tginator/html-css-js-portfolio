@@ -1,12 +1,12 @@
 /**
  * Central configuration for external links and site-wide constants.
- * Update URLs here — nothing else in the codebase should hardcode them.
+ * Update URLs here. Nothing else in the codebase should hardcode them.
  */
 export const siteConfig = {
   name: "Tyler Gabriel Gordon",
   shortName: "Tyler Gordon",
-  title: "Tyler.dev — Tyler's Dev Quest",
-  role: "Final-Year Software Engineering Student",
+  title: "Tyler.dev | Tyler's Dev Quest",
+  role: "Software Engineering Graduate",
   university: "Curtin University",
   domain: "https://tyler-gordon.com",
 
@@ -18,7 +18,7 @@ export const siteConfig = {
     resume: "/resume/Tyler-Gordon-Resume.pdf",
   },
 
-  // Per-project links. Fill in `demo` when a live deployment exists —
+  // Per-project links. Fill in `demo` when a live deployment exists;
   // leave `null` and the UI will simply omit the "Live Demo" button.
   projectLinks: {
     energyDashboard: {
@@ -32,6 +32,10 @@ export const siteConfig = {
     focusPal: {
       github: "https://github.com/tginator/FocusPal",
       demo: null as string | null,
+    },
+    icms: {
+      github: null as string | null,
+      demo: "https://icms-frontend-psi.vercel.app" as string | null,
     },
   },
 } as const;
